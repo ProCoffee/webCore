@@ -1,0 +1,319 @@
+@media screen and (min-width: 768px) {
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+    .wrapper{
+        width: 768px;
+    }
+    .header__container{
+        width: 768px;
+        margin: 0;
+    }
+    .header-1120{
+        background-color: #FFFFFF;
+    }
+    .header-1120--active{
+        left: 0;
+        width: 320px;
+    }
+    .header__left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header__menu{
+        margin-right: 17px;
+        margin-left: 16px;
+    }
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 17px;
+    }
+    .header__divider{
+        width: 2px;
+        height: 32px;
+    }
+    .header__tablet{
+        display: flex;
+    }
+    .tablet-devider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4px;
+    }
+    .header__right{
+        display: flex;
+        width: 312px; 
+        flex-direction: row;
+        align-items: center;
+    }
+    .header__repair {
+        margin: 0 0;
+    }
+    .header__checkstatus{
+        margin-right: 0;
+    }
+    
+    .title__container{
+        display: flex;
+        align-items: center;
+    }
+    .title__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "TTLakes-Bold";
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 14px;
+    }
+    .title_left{
+        display: flex;
+    }
+    .title_right{
+        display: none;
+    }
+    .nav__container{
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 16px;
+        padding: 24px 0;
+        
+    }
+    .nav__items{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        border: none;
+        max-height: 40px;
+        padding: 8px 0px;
+        white-space: nowrap;
+        padding-left: 23px;
+        padding-right: 22px;
+        font-family: "TTLakes-Medium";
+    }
+    .nav__items:focus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        max-height: 40px;
+        padding: 8px 16px;
+        white-space: nowrap;
+        padding-left: 23px;
+        padding-right: 22px;
+        font-family: "TTLakes-Medium";
+    }
+    .brends{display: none;}
+    .advice{
+        display: flex;
+        
+    }
+    .advice__container{
+        padding: 24px 0;
+        margin: 0;
+    }
+    .advice__text_container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .advice__text {
+        font-family: "TTLakes-Regular";
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        max-height: 160px;
+        text-align: justify;
+        font-size: 14px;
+        max-width: 312px;
+        margin-right: 48px;
+        transition: 1s;
+    }
+    .maxHeight{
+        max-height: 500px;
+    }
+    .advice__readmore {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .advice__vector{
+        padding: 0;
+        border: none;
+    }
+    .advice__imageWrapper{
+        max-width: 360px;
+        border-radius: 6px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .advice__readmore-tablet{
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .hidden-text{
+        display: none;
+    }
+    .header__container{
+        display: flex;
+    }
+    .brand__container{
+        flex-direction: column;
+        display: flex;
+        margin: 0 auto;
+        background-color: #F2F2F2;
+
+    }
+        
+    .brand__wrapper{
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 16px  24px;
+        padding: 24px 24px;
+        height: 200px;
+        transition: 0.8s;
+        width: 768px;
+    }
+    .brand__item{
+        display: flex;
+        justify-content: space-between;
+        width: 224px;
+        height: 72px;
+        align-items: center;
+        border: 1px solid #EAEAEA;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+    }
+    .brand__button{
+        display: flex;
+        background-color: #FFFFFF;
+        width: 40px; height: 40px; border: 2px solid #FF3E79;
+        border-radius: 50%;
+    }  
+   
+    
+    .cont_teches{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        max-width: 100%;
+    }
+    .card_teches{
+        
+        min-width: 224px;
+        max-width: 224px;
+    }
+   
+    .wrapper--active{
+    height: auto;
+    }
+    .btn{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .btn_icon--active{
+    transform: rotate(180deg);
+    }
+    .none320{
+        display: flex;
+    }
+    .r320{
+        display: none;
+    }
+    .r768{
+        display: block;
+        margin-right: 21px;
+    }
+    .price_cards{
+        flex-direction: column ; 
+        gap: 0;
+        padding: 0 24px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .price_card{
+        display: flex; 
+        height: 64px; 
+        border-bottom: #EAEAEA 1px solid;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .price_card_btn{
+        position: absolute;
+        right: 16px;
+        bottom: auto;
+    }
+    .price_card-title{
+        width: 50%;
+    }
+    .price_card_price{
+        width: 52px;
+        margin-right: 192px;
+    }
+
+    .price_card_label{
+        display: none;
+    }
+    .headerCards{
+        display: flex;
+        background-color: #F2F2F2;
+        color: #7E7E82;
+        height: auto;
+        /* padding: 0 24px; */
+
+    }
+    .swiper-slide{
+        max-height: 200px;
+        margin: 0;
+
+    }
+    .swiper-pagination1, .swiper-pagination2, .swiper-pagination3, .swiper1{
+        display: none;
+    }
+    .swiper2{
+        width: 100%;
+        overflow: visible;
+    }
+    .swiper-wrapper{
+        display: none;
+    }
+    .getCP{
+        margin-top: 24px;
+        padding: 0 24px;
+        width: 421px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+   .getCP_link{
+    margin-top: 16px;
+    line-height: 6px;
+   }
+   .footer{
+    flex-direction: row;
+    font-family: 'TT Lakes';
+    padding: 0 24px 25px;
+    box-sizing: border-box;
+   }
+   .footer_year,.footer_politics,.footer_info{
+    width: 270px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+   }
+
+   .footer_info{
+    text-align: right;
+   }
+}
